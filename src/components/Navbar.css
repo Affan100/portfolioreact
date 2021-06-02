@@ -1,0 +1,24 @@
+.bg-myRed{
+    background-color: crimson;
+}
+.nevbar-logo {
+    height: 8vmin;
+    pointer-events: none;
+    margin: 5px;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .nevbar-logo {
+      animation: nevbar-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes nevbar-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
