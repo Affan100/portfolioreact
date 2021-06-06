@@ -6,11 +6,11 @@
     background-color: white;
     color: $mainColor;
     position: fixed;
-    top: 7px; // edit
+    top: 0px; // edit
     z-index: 2;
     overflow: hidden;
     .wrapper {
-        padding: 0px 30px; // edit
+        padding: 0px 20px; // edit
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -18,12 +18,17 @@
         .left {
             display: flex;
             align-items: center;
+
             .logo {
                 font-size: 60px;
                 font-weight: 700;
+                text-decoration: none;
                 display: flex;
                 align-items: center;
+                color: inherit;
+                margin-right: 40px;
             }
+
             .itemContainer{
                 display: flex;
                 align-items: center;
@@ -33,6 +38,12 @@
                     font-size: 18px;
                     margin-right: 5px;
                 }
+                .span{
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+
             }
         }
         .right{

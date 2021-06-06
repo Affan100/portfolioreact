@@ -5,7 +5,7 @@ const Intro = () => {
         <div className='intro' id='intro'>
             <div class="left">
                 <div className='imgContainer'>
-                    <img src="../portfolio_prof.jpg" alt="" />
+                    {/* <img src="../portfolio_prof.jpg" alt="" /> */}
                 </div>
             </div>
         </div>
