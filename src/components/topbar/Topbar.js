@@ -48,11 +48,10 @@ import './topbar.scss'
 import '../Navbar.css';
 import { AddIcCall, MailOutline } from "@material-ui/icons"
 import 'bootstrap/dist/css/bootstrap.css'
-import { Navbar } from 'react-bootstrap';
 
-const Topbar = () => {
+const Topbar = ({ menuOpen, setMenuOpen }) => {
     return (
-        <div className='topbar'>
+        <div className={"topbar " + (menuOpen && "active")}>
             <div className='wrapper'>
                 <div className='left'>
                     <a href="#intro" className='logo'>Portfolio</a>
@@ -62,13 +61,17 @@ const Topbar = () => {
                     </div>
                     <div className='itemContainer'>
                         <MailOutline className='icon' />
-                        <span>Affan@hotmail.com</span>
+                        <span>Affan_pathan@hotmail.com</span>
                     </div>
                 </div>
 
 
                 <div className='right'>
-
+                    <div className='bar' onClick={() => setMenuOpen(!menuOpen)}>
+                        <span className='line1'></span>
+                        <span className='line2'></span>
+                        <span className='line3'></span>
+                    </div>
                 </div>
 
             </div>
