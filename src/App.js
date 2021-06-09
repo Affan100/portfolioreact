@@ -6,7 +6,9 @@ import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Skill from './components/skill/Skill';
+import Menu from './components/menu/Menu';
 import { useState } from 'react';
+
 
 
 const App = () => {
@@ -15,6 +17,7 @@ const App = () => {
     // <Router>
     <div className='app'>
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className='sections'>
         <Intro />
         <Portfolio />
