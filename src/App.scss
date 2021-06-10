@@ -1,18 +1,13 @@
-/* .content{
-    padding: 30px;
-    height: 3000px;
-    background-color:sandybrown;
-} */
+
 .app {
     height: 100vh;
 
     .sections{
         width: 100%;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 100px);
         background-color: lightsalmon;
         position: relative;
-        top: 70px;
-
+        top: 100px;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none;
@@ -20,8 +15,8 @@
             display: none;
         }
         > * {
-            width: 1000vw;
-            height: calc(100vh - 70px);
+            width: 100vw;
+            height: calc(100vh - 100px);
             scroll-snap-align: start;
         }
     }

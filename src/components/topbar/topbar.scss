@@ -12,7 +12,7 @@
     transition: all 1s ease;
 
     .wrapper {
-        padding: 10px 30px; // edit
+        padding: 10px 40px; // edit
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -28,7 +28,7 @@
                 display: flex;
                 align-items: center;
                 color: inherit;
-                margin-right: 40px;
+                margin-right: 80px;
             }
 
             .itemContainer {
@@ -37,11 +37,11 @@
                 margin-left: 30px;
 
                 .icon {
-                    font-size: 18px;
+                    font-size: 32px;
                     margin-right: 5px;
                 }
                 span {
-                    font-size: 15px;  //font email
+                    font-size: 18px;  //font email
                     font-weight: 600;
                 }
             }
