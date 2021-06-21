@@ -32,7 +32,6 @@ const Intro = () => {
                     <h3>Front End <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
-                    {/* <ExpandMoreIcon className="icon" /> */}
                     <img src="assests/down-icon.png" alt="" />
                 </a>
             </div>
