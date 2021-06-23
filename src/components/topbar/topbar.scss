@@ -25,24 +25,27 @@
                 font-size: 60px;
                 font-weight: 700;
                 text-decoration: none;
-                display: flex;
-                align-items: center;
                 color: inherit;
-                margin-right: 80px;
             }
 
             .itemContainer {
                 display: flex;
                 align-items: center;
-                margin-left: 30px;
+                margin-left: 70px;
+
+                @include mobile{
+                    display: none;
+                }
 
                 .icon {
                     font-size: 32px;
                     margin-right: 5px;
+                    
                 }
                 span {
                     font-size: 18px;  //font email
                     font-weight: 600;
+                    
                 }
             }
         }
@@ -50,7 +53,7 @@
         .right {
             display: flex;
             align-items: center;
-            margin-left: 500px;
+            // margin-left: 500px; //edit bar ด้านบน
 
             .bar {
                 width: 32px;
@@ -60,7 +63,7 @@
                 justify-content: space-between;
                 cursor: pointer;
                 font-size: 30px;
-                margin-left: 500px;
+                // margin-left: 500px; //edit bar ด้านบน
             }
 
             span {

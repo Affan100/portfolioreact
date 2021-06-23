@@ -6,6 +6,7 @@ import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Skill from './components/skill/Skill';
+import Blog from './components/Blog/Blog';
 import Menu from './components/menu/Menu';
 import { useState } from 'react';
 
@@ -22,6 +23,7 @@ const App = () => {
         <Intro />
         <Portfolio />
         <Skill />
+        <Blog />
         <Contact />
       </div>
     </div>

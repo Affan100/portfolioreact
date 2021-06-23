@@ -1,3 +1,20 @@
-.skill{
-    background-color: lightseagreen;
+@import "../../global.scss";
+
+.skill {
+    background-color: white;
+}
+.sc {
+    padding: 50px;
+    top: 3px;
+    color: $mainColor;
+
+    h2 {
+        font-weight: 300;
+        font-size: 38px;
+    }
+
+    li {
+        margin-top: 10px;
+        font-size: 18px;
+    }
 }
