@@ -12,11 +12,13 @@ const Contact = () => {
     }
     return (
         <div className='contact' id="contact">
+
             <div className='left2'>
                 <img src="assests/Handshake.png" alt="" />
             </div>
+
             <div className='right2'>
-                <h2>Contact.</h2>
+                <h2>Contact</h2>
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Email" />
                     <textarea placeholder='Message'></textarea>

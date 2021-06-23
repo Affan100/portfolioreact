@@ -1,0 +1,89 @@
+.blog {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 50px;
+    }
+    .container_bl {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+
+        .aboutme {
+            width: 550px;
+            height: 90%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px -8px black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 20px;
+            transition: all 1s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            .top {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    &.left,
+                    &.right {
+                        height: 70px;
+                    }
+                    &.user {
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 50%;
+                        object-fit: contain;
+                        margin: 0 35px;
+                    }
+                }
+            }
+            .topic{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: -40px;
+                font-size: 32px;
+                font-weight: 400
+            }
+
+            .center {
+                padding: 15px;
+                border-radius: 10px;
+                background-color: whitesmoke;
+
+                h2{
+                    font-size: 24px;
+                    font-weight: 300;
+                }
+            }
+
+            .bottom {
+                display: flex;
+                align-items: flex-end;
+                flex-direction: column;
+                justify-content: right;
+
+                h3 {
+                    font-size: 28px;
+                    margin-bottom: 5px;
+                }
+                h4 {
+                    font-size: 18px;
+                    color: gray;
+                }
+            }
+        }
+    }
+}
